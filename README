@@ -4,6 +4,8 @@ Some gedit code snippets for use with the Gedit Snippets plugin (http://live.gno
 
 Actually is has some snippets I use in a daily basis, including support for .rhtml/.html.erb, .js, .html and .rb files. More snippets comming soon.
 
+For Ruby files, it has some support for rspec.
+
 HOW
 ===
 
