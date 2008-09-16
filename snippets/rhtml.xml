@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="rhtml">
+  <snippet>
+    <text><![CDATA[<div id="${1}">${2}</div>]]></text>
+    <tag>div</tag>
+    <description>div: &lt;div id=""&gt;&lt;/div&gt;</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<table class="${1}" cellspacing="0" cellpadding="0">
+	<tr>
+		<th></th>
+	</tr>
+	<tr>
+		<td></td>
+	</tr>
+</table>]]></text>
+    <tag>table</tag>
+    <description>table</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<td>$1</td>]]></text>
+    <tag>td</tag>
+    <description>table cell (tbody cell)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<base href="$1" ${2}/>$0]]></text>
+    <tag>base</tag>
+    <description>Base</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<body id="${1:ID} " onload="$2"}>
+	$0
+</body>]]></text>
+    <tag>body</tag>
+    <description>Body</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<br />
+$0]]></text>
+    <description>Br</description>
+    <accelerator><![CDATA[<Shift><Control>space]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<div ${1}>
+	${0:$GEDIT_SELECTED_TEXT}
+</div>]]></text>
+    <tag>div</tag>
+    <description>Div</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<form action="${1}" method="${2:get}">
+	$0
+
+	<p><input type="submit" value="${3:Continue &rarr;}" /></p>
+</form>]]></text>
+    <tag>form</tag>
+    <description>Form</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>${1:Page Title}</title>
+	$0
+</head>]]></text>
+    <tag>head</tag>
+    <description>Head</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<h${1:1} id="${2}">${3:$GEDIT_SELECTED_TEXT}</h${1}>
+$0]]></text>
+    <tag>h</tag>
+    <description>Heading</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+]]></text>
+    <tag>doctype</tag>
+    <description>HTML — 4.01 Strict</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+]]></text>
+    <tag>doctype</tag>
+    <description>HTML — 4.0 Transitional</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<input type="${1:text/submit/hidden/button}" name="${2:some_name}" value="$3" id="${5}" />]]></text>
+    <tag>input</tag>
+    <description>Input</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<link rel="${1:stylesheet}" href="${2:/css/master.css}" type="text/css" media="${3:screen}" title="${4:no title}" charset="${5:utf-8}" />]]></text>
+    <tag>link</tag>
+    <description>Link</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<a href="mailto:${1:joe@example.com}?subject=${2:feedback}">${3:email me}</a> $0]]></text>
+    <tag>mailto</tag>
+    <description>Mail Anchor</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<meta name="${1:name}" content="${2:content}" />]]></text>
+    <tag>meta</tag>
+    <description>Meta</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[&nbsp;]]></text>
+    <description>Non-Breaking Space</description>
+    <accelerator><![CDATA[<Control><Alt>space]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<script type="text/javascript" language="javascript" charset="utf-8">
+// <![CDATA[
+	$0
+// ]]]]><![CDATA[>
+</script>]]></text>
+    <tag>script</tag>
+    <description>Script</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<script src="$1" type="text/javascript" language="${2:javascript}" charset="${3:utf-8}" />]]></text>
+    <tag>scriptsrc</tag>
+    <description>Script With External Source</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<style type="text/css" media="screen">
+/* <![CDATA[ */
+	$0
+/* ]]]]><![CDATA[> */
+</style>
+]]></text>
+    <tag>style</tag>
+    <description>Style</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<table border="${1:0}" cellspacing="${2:0}" cellpadding="${3:0}">
+	<tr><th>${4:Header}</th></tr>
+	<tr><td>${5:Data}</td></tr>
+	$0
+</table>]]></text>
+    <tag>table</tag>
+    <description>Table</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<tr>
+	<td>$1</td>
+</tr>]]></text>
+    <tag>tr</tag>
+    <description>Table Row</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<textarea name="${1:Name}" rows="${2:8}" cols="${3:40}">$0</textarea>]]></text>
+    <tag>textarea</tag>
+    <description>Text Area</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<title>${1:Page Title}</title>]]></text>
+    <tag>title</tag>
+    <description>Title</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<a href="${1:http://somesite.com/}">${2:$GEDIT_SELECTED_TEXT}</a>
+]]></text>
+    <tag>ref</tag>
+    <description>Wrap Selection as Link</description>
+    <accelerator><![CDATA[<Shift><Alt>l]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<${1:p}>$GEDIT_SELECTED_TEXT</${1}>]]></text>
+    <description>Wrap Selection in Open/Close Tag</description>
+    <accelerator><![CDATA[<Shift><Alt>w]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+]]></text>
+    <tag>doctype</tag>
+    <description>XHTML — 1.0 Frameset</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+]]></text>
+    <tag>doctype</tag>
+    <description>XHTML — 1.0 Strict</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+]]></text>
+    <tag>doctype</tag>
+    <description>XHTML — 1.0 Transitional</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+]]></text>
+    <tag>doctype</tag>
+    <description>XHTML — 1.1</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= ${1:code} %>]]></text>
+    <tag>erb</tag>
+    <description>erb: output</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<% ${1:code} %>]]></text>
+    <tag>erb</tag>
+    <description>erb: ruby code</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= stylesheet_link_tag "${1:filename}" %>]]></text>
+    <tag>style</tag>
+    <description>New snippet</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<strong>${0:$GEDIT_SELECTED_TEXT}</strong>]]></text>
+    <accelerator><![CDATA[<Control><Alt>b]]></accelerator>
+    <tag>str</tag>
+    <description>strong</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<% if ${1} %>
+	${0:$GEDIT_SELECTED_TEXT}
+<% end %>]]></text>
+    <accelerator><![CDATA[<Shift><Control>question]]></accelerator>
+    <tag>if</tag>
+    <description>if ... end</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<% if ${1} %>
+	${2}
+<% else %>
+	${3}	
+<% end %>]]></text>
+    <tag>ife</tag>
+    <description>if ... else ... end</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<% for ${1} in ${2} %>
+	${0:$GEDIT_SELECTED_TEXT}
+<% end %>]]></text>
+    <accelerator><![CDATA[<Shift><Control>f]]></accelerator>
+    <tag>for</tag>
+    <description>for ... end</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= render :partial => '${1:partial_name}' $0 %>]]></text>
+    <tag>part</tag>
+    <description>partial &lt;%= render :partial =&gt; ... %&gt;</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<p>
+	$0
+</p>]]></text>
+    <tag>p</tag>
+    <description>p (html paragraph)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<% end %>]]></text>
+    <tag>end</tag>
+    <description>end &lt;% end %&gt;</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[align="${1:left|center|right}"]]></text>
+    <tag>align</tag>
+    <description>align align="blabla"</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[colspan="$1"]]></text>
+    <tag>colspan</tag>
+    <description>colspan</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= link_to "${1:title}", ${2:url_method}, {${3:html}} %>]]></text>
+    <tag>lt</tag>
+    <description>link_to</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= javascript_include_tag '$1' %>]]></text>
+    <tag>js</tag>
+    <description>javascript_include_tag</description>
+  </snippet>
+</snippets>

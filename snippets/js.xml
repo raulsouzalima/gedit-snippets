@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="js">
+  <snippet>
+    <text><![CDATA[/**
+* ${1}
+* 
+* Recebe: ${2}
+* Retorna: ${3}
+*/]]></text>
+    <tag>cmt</tag>
+    <description>Comments</description>
+  </snippet>
+</snippets>
