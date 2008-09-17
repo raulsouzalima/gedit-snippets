@@ -4,7 +4,7 @@ Some gedit code snippets for use with the Gedit Snippets plugin (http://live.gno
 
 Actually is has some snippets I use in a daily basis, including support for .rhtml/.html.erb, .js, .html and .rb files. More snippets comming soon.
 
-For Ruby files, it has some support for rspec.
+For Ruby files, it has some support for rspec and factory_girl.
 
 HOW
 ===
@@ -14,4 +14,4 @@ Just copy the files under the gedit_snippets/snippets folder to ~/.gnome2/gedit/
 LEARN
 =====
 Just go to the gedit "tools" menu, then "manage snippets" and take a look at what's available. 
-You can find more information about how to use the snippets and the Gedi Snippets plugin at http://live.gnome.org/Gedit/Plugins/Snippets
+You can find more information about how to use the snippets and the Gedit Snippets plugin at http://live.gnome.org/Gedit/Plugins/Snippets

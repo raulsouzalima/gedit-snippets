@@ -78,4 +78,23 @@ end]]></text>
     <tag>lamb</tag>
     <description>lambda</description>
   </snippet>
+  <snippet>
+    <text><![CDATA[Factory.define :${1:model} do |${2:m}|
+	$2.${0}
+end]]></text>
+    <tag>facd</tag>
+    <description>Factory.define (factory_girl)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[{ |${1:m}| $1.association(:${2:other_model}) }$0]]></text>
+    <tag>assoc</tag>
+    <description>association (factory_girl)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[Factory.sequence :${1:model} do |${2:m}|
+	
+end]]></text>
+    <tag>facs</tag>
+    <description>Factory.sequence (factory_girl)</description>
+  </snippet>
 </snippets>
