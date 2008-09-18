@@ -107,4 +107,11 @@ end]]></text>
     <tag>:</tag>
     <description>hash pair</description>
   </snippet>
+  <snippet>
+    <text><![CDATA[${1:ModelName}.transaction do
+	$0
+end]]></text>
+    <tag>trans</tag>
+    <description>Model.transaction (ActiveRecord)</description>
+  </snippet>
 </snippets>
