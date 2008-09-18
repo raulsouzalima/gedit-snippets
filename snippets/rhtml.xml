@@ -282,4 +282,14 @@ $0]]></text>
     <tag>js</tag>
     <description>javascript_include_tag</description>
   </snippet>
+  <snippet>
+    <text><![CDATA[<li>$0</li>]]></text>
+    <tag>li</tag>
+    <description>line item</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<th>$1</th>]]></text>
+    <tag>th</tag>
+    <description>table header (theader cell)</description>
+  </snippet>
 </snippets>

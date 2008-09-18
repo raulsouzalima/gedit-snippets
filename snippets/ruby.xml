@@ -91,10 +91,20 @@ end]]></text>
     <description>association (factory_girl)</description>
   </snippet>
   <snippet>
-    <text><![CDATA[Factory.sequence :${1:model} do |${2:m}|
+    <text><![CDATA[Factory.sequence :${1:name} do |${2:m}|
 	
 end]]></text>
     <tag>facs</tag>
     <description>Factory.sequence (factory_girl)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[Factory.build(:${1:model})$0]]></text>
+    <tag>facb</tag>
+    <description>Factory.build (factory_girl)</description>
+  </snippet>
+  <snippet override="ruby-:">
+    <text><![CDATA[:${1:key} => ${2}$0]]></text>
+    <tag>:</tag>
+    <description>hash pair</description>
   </snippet>
 </snippets>
