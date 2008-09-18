@@ -292,4 +292,9 @@ $0]]></text>
     <tag>th</tag>
     <description>table header (theader cell)</description>
   </snippet>
+  <snippet>
+    <text><![CDATA[<%= submit_tag "${1:text}" %>$0]]></text>
+    <tag>submit</tag>
+    <description>submit_tag</description>
+  </snippet>
 </snippets>
