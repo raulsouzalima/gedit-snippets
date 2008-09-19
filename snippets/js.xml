@@ -4,10 +4,17 @@
     <text><![CDATA[/**
 * ${1}
 * 
-* Recebe: ${2}
-* Retorna: ${3}
+* Receives: ${2}
+* Returns: ${3}
 */]]></text>
     <tag>cmt</tag>
     <description>Comments</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[var ${1:function name} = function(${2:params}) {
+	$0
+}]]></text>
+    <tag>vfunc</tag>
+    <description>var ... = function() {...}</description>
   </snippet>
 </snippets>

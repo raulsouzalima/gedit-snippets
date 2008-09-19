@@ -297,4 +297,31 @@ $0]]></text>
     <tag>submit</tag>
     <description>submit_tag</description>
   </snippet>
+  <snippet>
+    <text><![CDATA[<html>
+	<head>
+		<title>$1</title>
+	</head>
+	<body>
+		$0
+	</body>
+</html>]]></text>
+    <tag>html</tag>
+    <description>html (document basic structure)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= image_tag '${1:name with extension}' %>$0]]></text>
+    <tag>image</tag>
+    <description>image_tag</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[width="${1}"$0]]></text>
+    <tag>w</tag>
+    <description>width (width="123")</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= button_to_function "${1:text}", "${2:function call}" %>$0]]></text>
+    <tag>btf</tag>
+    <description>button_to_function</description>
+  </snippet>
 </snippets>
