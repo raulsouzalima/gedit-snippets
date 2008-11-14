@@ -324,4 +324,23 @@ $0]]></text>
     <tag>btf</tag>
     <description>button_to_function</description>
   </snippet>
+  <snippet>
+    <text><![CDATA[<span>
+	$0
+</span>]]></text>
+    <tag>span</tag>
+    <description>span</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<% content_for :${1:sector} do %>
+	$0
+<% end %>]]></text>
+    <tag>content</tag>
+    <description>content_for</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<%= label_tag "${1:field}" %>]]></text>
+    <tag>label</tag>
+    <description>label_tag</description>
+  </snippet>
 </snippets>

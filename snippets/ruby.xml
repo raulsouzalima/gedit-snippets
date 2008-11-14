@@ -59,9 +59,7 @@ end]]></text>
     <description>belongs_to</description>
   </snippet>
   <snippet override="ruby-def">
-    <text><![CDATA[# ${2:description}
-# Recebe: ${3}
-# Retorna: ${4}
+    <text><![CDATA[# 
 def ${1:method_name}
 	$0
 end]]></text>
@@ -76,7 +74,7 @@ end]]></text>
   <snippet>
     <text><![CDATA[lambda { $0 }]]></text>
     <tag>lamb</tag>
-    <description>lambda</description>
+    <description>lambda { ... }</description>
   </snippet>
   <snippet>
     <text><![CDATA[Factory.define :${1:model} do |${2:m}|
@@ -113,5 +111,49 @@ end]]></text>
 end]]></text>
     <tag>trans</tag>
     <description>Model.transaction (ActiveRecord)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[class $1
+	def self.filter(controller)
+		$0
+	end	
+end]]></text>
+    <tag>fclass</tag>
+    <description>filter class</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[# $0
+# 
+# Autor: Cassio Marques]]></text>
+    <tag>cmtc</tag>
+    <description>comentario classe</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[# $0
+# ]]></text>
+    <tag>cmtm</tag>
+    <description>comentario metodo</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[Factory.next(:${1:sequence_name})]]></text>
+    <tag>facn</tag>
+    <description>Factory.next (factory_girl)</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[lambda do
+	$0
+end]]></text>
+    <tag>lambo</tag>
+    <description>lambda do ... end</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[it_should_behave_like "$0"]]></text>
+    <tag>isbl</tag>
+    <description>it_should_behave_like</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[fills_in "$1", :with => $2]]></text>
+    <tag>fills</tag>
+    <description>fills_in (cucumber)</description>
   </snippet>
 </snippets>
